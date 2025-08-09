@@ -1,0 +1,222 @@
+    body{
+    background: #8589d0;
+    background: linear-gradient(to right,#284786, #8adce1);
+
+}
+.ladoDerecho{
+    background-color: #19429c;
+    
+}
+
+.alto{
+    height: 100vh;
+}
+
+.bg-img{
+    background-image: url(../img/fondo-login.png);
+    background-position: center center;
+}
+
+.alert-danger{
+    height: 10px;
+}
+
+.icono{
+    font-size: 2em;
+}
+
+.developers-section {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.developer-card {
+    margin: 10px;
+}
+
+.developer-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #ddd;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.developer-card h5 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* ============== ESTILOS CRUD CLIENTES ============== */
+
+/* Tarjetas de clientes */
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Botones en las tarjetas */
+.btn-group .btn {
+    margin: 0 2px;
+}
+
+/* Mensajes de alerta */
+.alert {
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border-left: 4px solid #28a745;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-left: 4px solid #dc3545;
+    height: auto;
+}
+
+/* Formulario en modal */
+.modal-content {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.modal-header {
+    background: linear-gradient(135deg, #284786, #8adce1);
+    color: white;
+    border-radius: 12px 12px 0 0;
+}
+
+.modal-header .btn-close {
+    filter: invert(1);
+}
+
+/* Campos de formulario */
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #e9ecef;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #284786;
+    box-shadow: 0 0 0 0.2rem rgba(40, 71, 134, 0.25);
+}
+
+/* Botones personalizados */
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #28a745, #20c997);
+    border: none;
+}
+
+.btn-success:hover {
+    background: linear-gradient(135deg, #218838, #1db584);
+    transform: translateY(-1px);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #284786, #007bff);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #1e3a6f, #0056b3);
+    transform: translateY(-1px);
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #dc3545, #e74c3c);
+    border: none;
+}
+
+.btn-danger:hover {
+    background: linear-gradient(135deg, #c82333, #c0392b);
+    transform: translateY(-1px);
+}
+
+/* Área de búsqueda */
+.input-group {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+    border: none;
+    color: #6c757d;
+}
+
+/* Spinner de carga */
+.spinner-border {
+    color: #284786;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .btn-group .btn {
+        margin: 0;
+    }
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Estados de los elementos */
+.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.developer-card p {
+    font-size: 0.9em;
+    color: #555;
+}
