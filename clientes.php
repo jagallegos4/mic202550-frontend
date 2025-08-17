@@ -15,6 +15,10 @@ if (empty($_SESSION['id_usuario'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+    <link rel="icon" href="img/navegador.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -127,6 +131,7 @@ if (empty($_SESSION['id_usuario'])) {
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/script.js"></script>
 
