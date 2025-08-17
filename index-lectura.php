@@ -19,17 +19,17 @@ if (empty($_SESSION['id_usuario'])) {
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.php">MIC ESPE 202550</a>
+            <a class="navbar-brand" href="index-lectura.php">MIC ESPE 202550</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="index.php" class="nav-link text-light fw-bold">Inicio</a>
+                        <a href="index-lectura.php" class="nav-link text-light fw-bold">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="clientes.php" class="nav-link text-light">Clientes</a>
+                        <a href="clientes-lectura.php" class="nav-link text-light">Clientes</a>
                     </li>
                 </ul>
 

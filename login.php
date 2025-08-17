@@ -29,16 +29,16 @@ include('model/conexion.php');
                 ?>
                 <form action="" method="post">
                     <div class="mb-4">
-                        <label for="usuario" class="form-label text-light">Usuario</label>
+                        <label for="usuario" class="form-label text-light">Usuario *</label>
                         <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Ingrese su usuario" require >
                     </div>
                     <div class="mb-4">
-                        <label for="password" class="form-label text-light">Contraseña</label>
+                        <label for="password" class="form-label text-light">Contraseña *</label>
                         <input type="password" class="form-control" id="password" name="password" placeholder="Ingrese su contraseña" >
                     </div>
                     
                     <div class="d-grid pt-3 pb-5">
-                        <button type="submit" class="btn btn-info" name="btnLogin" id="btnLogin">Iniciar Sesión</button>
+                        <button type="submit" class="btn btn-info text-light" name="btnLogin" id="btnLogin">Iniciar Sesión</button>
                     </div>
                    
                 </form>

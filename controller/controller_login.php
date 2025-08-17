@@ -10,13 +10,19 @@ if (empty($_POST['btnLogin'])) {
         if ($datos = $sql->fetch_object()) {
             $_SESSION['id_usuario'] = $datos->id_usuario;
             $_SESSION['nombre_usuario'] = $datos->nombre_usuario;
-            header('Location: index.php');
+            $_SESSION['id_rol'] = $datos->id_rol;
+            if($datos->id_rol == 1){
+                header('Location: index.php');
+            } else {
+                header('Location: index-lectura.php');
+            }
+            
         }
         else {
             echo '<div class="text-center text-bg-danger" role="alert">Usuario o contraseña incorrectos</div>';
         }
     } else {
-        echo '<div class="text-bg-warning text-center text-black-50" role="alert">Debe llenar todos los campos</div>';
+        echo '<div class="text-bg-warning text-center text-white" role="alert">Debe llenar todos los campos</div>';
     }
 }
 

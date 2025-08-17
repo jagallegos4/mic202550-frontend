@@ -184,7 +184,6 @@ if (typeof axios !== 'undefined') {
 
 // ============== EXPORTAR FUNCIONES GLOBALES ==============
 
-// Hacer funciones disponibles globalmente si es necesario
 window.Utils = {
     validarEmail,
     validarTelefono,
